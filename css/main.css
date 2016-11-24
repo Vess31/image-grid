@@ -15,6 +15,18 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
 img {
+  display: inline-block;
   width: 100%;
+  float: left;
+}
+
+img:nth-child(2),
+img:nth-child(5) {
+  display: none;
 }
