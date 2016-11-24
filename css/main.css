@@ -50,7 +50,7 @@ img:nth-child(5) {
     display: none;
   }
 
-  img:not(:first-child){
+  img:not(:first-child) {
     float: left;
     width: 33.3333%;
   }
