@@ -21,7 +21,7 @@ body {
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
   float: left;
 }
@@ -29,4 +29,12 @@ img {
 img:nth-child(2),
 img:nth-child(5) {
   display: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+  img {
+    float: left;
+    width: 66.6666%;
+  }
 }
