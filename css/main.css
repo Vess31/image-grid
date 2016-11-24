@@ -43,3 +43,15 @@ img:nth-child(5) {
     display: inline-block;
   }
 }
+
+@media only screen and (min-width: 38em) {
+
+  img:last-child {
+    display: none;
+  }
+
+  img:not(:first-child){
+    float: left;
+    width: 33.3333%;
+  }
+}
