@@ -61,8 +61,8 @@ img:nth-child(5) {
   img:last-child {
     display: inline-block;
   }
-img:first-child {
-  width: 66.6666%;
-}
 
+  img:first-child {
+    width: 66.6666%;
+  }
 }
