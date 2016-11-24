@@ -55,3 +55,14 @@ img:nth-child(5) {
     width: 33.3333%;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  img:last-child {
+    display: inline-block;
+  }
+img:first-child {
+  width: 66.6666%;
+}
+
+}
