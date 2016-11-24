@@ -33,8 +33,13 @@ img:nth-child(5) {
 
 @media only screen and (min-width: 25em) {
 
-  img {
+  img:first-child {
+    width: 100%;
+  }
+
+  img:not(:first-child) {
     float: left;
-    width: 66.6666%;
+    width: 50%;
+    display: inline-block;
   }
 }
